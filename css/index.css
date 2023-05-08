@@ -1,0 +1,35 @@
+body{
+line-height: 15px;
+background-color: gainsboro;}
+
+.container{background-color:white;
+border-radius: 10px;
+width: 500px;
+border-bottom-right-radius: 30%;} 
+label{font-size: smaller;}
+
+.fs-lg{font-size:X-large;}
+
+span{color:hsl(259, 100%, 65%);}
+.result{font-weight: bolder;
+color: black;    
+font-size: 70px;}
+.ok{background-color: hsl(259, 100%, 65%);
+border-radius: 50%;
+padding: 4px;
+
+}
+.ok:hover{ background-color: hsl(0, 0%, 8%);}
+.form-control:focus{
+border: 1px solid hsl(259, 100%, 65%)!important;
+box-shadow: none;
+}
+@media only screen and (max-width:600px) {
+    .container{width: 400px;}
+    .fs-lg{font-size:large;}
+    .result{font-size:50px;}
+    .ok{width: 40px;
+    position: relative;top: -35px;
+    margin-left: auto;
+margin-right: auto;}
+}
